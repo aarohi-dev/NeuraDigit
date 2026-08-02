@@ -1,0 +1,53 @@
+## OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+
+## Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Environment files
+.env
+.env.*
+!.env.example
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+## Python packaging / build output
+build/
+dist/
+site/
+
+## Jupyter / notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+## Generated ML artifacts and data
+model/checkpoints/
+model/datasets/
+model/logs/
+model/notebooks/
+server/trained_model/

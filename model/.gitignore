@@ -1,0 +1,20 @@
+# --- AI Model Files ---
+*.pt
+*.pth
+*.bin
+*.h5
+*.pb
+*.ckpt
+*.safetensors
+*.tflite
+*.onnx
+
+# --- Specific AI Model Directories ---
+# Ignore model cache folders where frameworks download pre-trained weights
+/models/
+/model_weights/
+/checkpoints/
+/.cache/huggingface/
+
+# Ignore specific large model sub-directories
+/model_dir/large_weights/
